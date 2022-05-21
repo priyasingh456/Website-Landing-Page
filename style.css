@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://www.tripsavvy.com/thmb/NwI4NeafWKRx8SjLG-uUkyJcxN0=/3865x2576/filters:fill(auto,1)/view-of-eiffel-tower-717173895-5b08511a3de4230037726976.jpg');
+    background-position-y: -120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box{
+    height: 100vh;
+}
+
+.headbar{
+    background-color:rgba(54, 54, 54, 0.3);
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.container1{
+    font-size: 15px;
+}
+
+.fa{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 5px;
+    color: white;
+    margin: 5px 3px;
+}
+
+.fa-facebook{
+    background-color: rgb(37, 95, 255);
+    margin-left: 120px;
+}
+
+.fa-twitter{
+    background-color: #55acee;
+    color: white;
+}
+
+.fa-linkedin{
+    background-color: #007bb5;
+}
+
+.fa-instagram{
+    background-color: rgb(230, 3, 180);
+}
+
+.fa-envelope{
+    background-color: rgb(5, 206, 32);
+}
+
+.fa-phone{
+    margin-left: 20px;
+}
+
+.fa-search{
+    margin-left: 20px;
+}
+
+.tag{
+    display: flex;
+    font-size: 15px;
+}
+
+.tag p{
+    font-size: 14px;
+    opacity: .8;
+    margin-top: 9px;
+    margin-left: 30px;
+}
+
+.tag h6{
+    margin-left: 20px;
+    margin-top: 7px;
+    font-size: 17px;
+    opacity: .8;
+}
+
+#color{
+    background: transparent;
+    margin-right: 5px;
+}
+
+.mail-phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 90px;
+}
+
+.text1{
+    margin-top: 9px;
+    font-size: 14px;
+    opacity: .8;
+}
+
+
+.headbar2{
+    background-color: rgba(3, 3, 3, 0.8);
+    display: flex;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.logo p{
+    color: white;
+    margin-left: 190px;
+    margin-top: -5px;
+}
+
+.fa-send{
+    margin-left: 220px;
+}
+
+.nav{
+    width: 70%;
+    display: flex;
+    flex-direction: rows;
+    justify-content: flex-end;
+}
+
+.nav a{
+    padding: 22px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav a:hover{
+    color: black;
+    background-color: rgb(31, 94, 189);
+}
+.footbar{
+    display: flex;
+    margin-top: 490px;
+    background-color: rgb(27, 87, 253);
+    border: 2px solid rgb(1, 40, 145);
+    padding: 15px 20px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 553px;
+}
+
+.text2{
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 250px;
+}
+
+.text3{
+    font-size: 15px;
+    margin-left: 150px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(19, 17, 17);
+    color: rgb(204, 201, 201);
+    padding: 5px 10px;
+    margin-left: 180px;
+    margin-top: 13px;
+
+}
+
+@media (min-width : 1200px){
+    .nav a{
+        font-size: 13px;
+    }
+    body{
+        background-position-y: -160px;
+    }
+    
+}
+
+@media (max-width : 990px){
+    .nav a{
+        font-size: 11px;
+    }
+    body{
+        background-position-y: 0px;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    
+    .logo p{
+        color: white;
+        margin-left: 150px;
+        margin-top: 0px;
+    }
+    .container1{
+        font-size: 12px;
+    }
+    .fa{
+        height: 18px;
+        width: 18px;
+        padding-top: 3.5px;
+        margin: 5px 3px;
+    }
+    .fa-facebook{
+        margin-left: 70px;
+    }
+    .tag{
+        font-size: 13px;
+    }
+    
+    .tag p{
+        font-size: 13px;
+        margin-top: 7px;
+        margin-left: 23px;
+    }
+    
+    .tag h6{
+        margin-left: 15px;
+        margin-top: 4px;
+    }
+    .fa-phone{
+        margin-left: 20px;
+    }
+    
+    .fa-search{
+        margin-left: 15px;
+    }
+    .mail-phone{
+        font-size: 14px;
+    }
+    .mail-phone p{
+        font-size: 12px;
+    }
+    .fa-send{
+        margin-left: 180px;
+    }
+
+    .text2{
+        font-size: 22px;
+        margin-left: 180px;
+    }
+    
+    .text3{
+        font-size: 11px;
+        margin-left: 135px;
+    }
+    
+    button{
+        padding: 5px 10px;
+        margin-left: 130px;
+        margin-top: 13px;
+    }
+    .footbar{
+        margin-top: 510px;
+        padding: 15px 20px;
+        margin-bottom: auto;
+    }
+    
+}
+
+@media (max-width: 800px) {
+
+    .nav a{
+        font-size: 9px;
+        padding: 20px 10px;
+        margin-right: 3px;
+    }
+    body{
+        background-position-x: -140px;
+    }
+    .logo{
+        font-size: 16px;
+    }
+    
+    .logo p{
+        margin-left: 80px;
+        margin-top: 0px;
+    }
+    .container1{
+        font-size: 10px;
+    }
+    .fa{
+        height: 16px;
+        width: 16px;
+        padding-top: 3.5px;
+        margin: 5px 3px;
+    }
+    .fa-facebook{
+        margin-left: 30px;
+    }
+    .tag{
+        font-size: 10px;
+    }
+    
+    .tag p{
+        font-size: 13px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    
+    .tag h6{
+        margin-left: 15px;
+        margin-top: 3px;
+    }
+    .fa-phone{
+        margin-left: 30px;
+    }
+    
+    .fa-search{
+        margin-left: 12px;
+    }
+    .mail-phone{
+        font-size: 12px;
+        margin-right: 50px;
+    }
+    .mail-phone p{
+        font-size: 10px;
+    }
+    .fa-send{
+        margin-left: 110px;
+    }
+
+    .text2{
+        font-size: 18px;
+        margin-left: 110px;
+    }
+    
+    .text3{
+        font-size: 8px;
+        margin-left: 95px;
+    }
+    
+    button{
+        padding: 5px 10px;
+        margin-left: 100px;
+        margin-top: 5px;
+    }
+    .footbar{
+        margin-top: 530px;
+        padding: 15px 20px;
+        margin-bottom: auto;
+    }
+   
+}
+
+@media (max-width : 600px){
+    
+}
+
+@media (max-width: 468px) {
+    body{
+        background-position-y: 20px;
+        background-position-x: 1000px;
+    }
+    
+}
